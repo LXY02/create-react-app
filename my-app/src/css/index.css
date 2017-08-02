@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.recruitmentDiv {
+  background-color: #5f7d8b;
+  width: 350px;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.recruitmentDiv .topBar {
+  margin-bottom: 10px;
+}
+
+.recruitmentDiv .topBar .containerTitle {
+  float: left;
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.recruitmentDiv .topBar .clearAllA {
+  color: #fff;
+  font-size: 22px;
+  line-height: 22px;
+  float: right;
+  margin-top: 10px;
+}
+
+.recruitmentDiv .departmentDiv {
+  position: relative;
+  margin-top: 10px;
+}
+
+.recruitmentDiv .departmentDiv > label {
+  font-size: 20px;
+}
+
+.recruitmentDiv .departmentDiv > span {
+  float: right;
+}
+
+.recruitmentDiv .departmentDiv .workLists {
+  margin-left: 20px;
+}
+
+.recruitmentDiv .departmentDiv .workLists span {
+  float: right;
+}
+
+.recruitmentDiv .departmentDiv > div {
+  margin: 10px 0;
+}
+
+.recruitmentDiv .arrow {
+  width: 25px;
+  height: 25px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  position: absolute;
+  top: -5.5px;
+  left: 144px;
+}
+
+.recruitmentDiv .arrowDown {
+  transform: rotate(0deg);
+}
+
+.recruitmentDiv label {
+  cursor: pointer;
+}
+
+.recruitmentDiv .hide {
+  display: none;
+}
+
+
